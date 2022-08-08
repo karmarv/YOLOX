@@ -221,3 +221,6 @@ events.out.tfevents*
 .vim
 
 wandb/
+wandb/*
+artifacts/
+artifacts/*

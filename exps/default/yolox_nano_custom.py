@@ -26,15 +26,15 @@ class Exp(MyExp):
 
         # ---------------- model config ---------------- #
         # detect classes number of model
-        self.num_classes = 71
+        self.num_classes = 3
 
         # ---------------- dataloader config ---------------- #
         # dir of dataset images, if data_dir is None, this project will use `datasets` dir
-        self.data_dir = "datasets/coco128"
+        self.data_dir = "datasets/cocobi"
         # name of annotation file for training
-        self.train_ann = "instances_train2017.json"
+        self.train_ann = "sampled_instances_train2017.json"
         # name of annotation file for evaluation
-        self.val_ann = "instances_val2017.json"
+        self.val_ann = "sampled_instances_val2017.json"
         # name of annotation file for testing
         self.test_ann = "instances_test2017.json"
 
